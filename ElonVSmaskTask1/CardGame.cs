@@ -10,7 +10,6 @@ namespace ElonVSmark
             const int totalExperiments = 1000000;
             int totalSuccesses = 0;
 
-            Random random = new Random();
             var deck = new Deck.Deck();
 
             Card[] elonCards;
@@ -18,7 +17,7 @@ namespace ElonVSmark
 
             for (int i = 0; i < totalExperiments; i++)
             {
-                var shuffledDeck = deck.GetShuffleDeck(random);
+                var shuffledDeck = deck.GetShuffleDeck();
 
                 elonCards = shuffledDeck.Take(18).ToArray();
                 markCards = shuffledDeck.Skip(18).ToArray();

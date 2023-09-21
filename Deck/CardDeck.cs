@@ -32,8 +32,9 @@
             }
         }
 
-        public List<Card> GetShuffleDeck(Random random)
+        public List<Card> GetShuffleDeck()
         {
+            Random random = new Random();
             List<Card> shuffleCards = new List<Card>(cards);
             int n = shuffleCards.Count;
             while (n > 1)
