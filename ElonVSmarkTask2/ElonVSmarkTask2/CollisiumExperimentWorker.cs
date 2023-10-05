@@ -10,10 +10,14 @@ namespace ElonVSmarkTask2
     public class CollisiumExperimentWorker : BackgroundService
     {
         private IExperimentService _experimentService;
-        
-        public CollisiumExperimentWorker(IExperimentService experimentService)
+        private readonly IPlayer _elonPlayer;
+        private readonly IPlayer _markPlayer;
+
+        public CollisiumExperimentWorker(IExperimentService experimentService, IPlayer elonPlayer, IPlayer markPlayer)
         {
             _experimentService = experimentService;
+            _elonPlayer = elonPlayer;
+            _markPlayer = markPlayer;
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -24,7 +28,7 @@ namespace ElonVSmarkTask2
             
             for (int i = 0; i < totalExperiments; i++)
             {
-                int successes = _experimentService.RunExperiment(new DeckShuffler(), deck).Result;
+                int successes = _experimentService.RunExperiment(new DeckShuffler(), deck, _elonPlayer, _markPlayer).Result;
                 totalSuccesses += successes;
             }
 

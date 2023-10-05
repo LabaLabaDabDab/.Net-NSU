@@ -3,7 +3,6 @@ using Microsoft.Extensions.Hosting;
 using CardDeck;
 using Strategy;
 using ElonVSmarkTask2;
-using Microsoft.Extensions.Configuration;
 
 class Program
 {
@@ -19,8 +18,10 @@ class Program
             {
                 services.AddHostedService<CollisiumExperimentWorker>();
                 services.AddScoped<IExperimentService, ExperimentService>();
-                services.AddScoped<IDeckShuffler, DeckShuffler>();                
-                services.AddScoped<ICardStrategy, GameStrategy>();                         
+                services.AddScoped<IDeckShuffler, DeckShuffler>();
+                services.AddScoped<IPlayer, ElonMask>();
+                services.AddScoped<IPlayer, MarkZuckerberg>();
+                services.AddScoped<ICardStrategy, GameStrategy>();
             });
     }
 }
