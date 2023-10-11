@@ -12,7 +12,6 @@ namespace Strategy
             int roundedOpponentCardNumber = (int)Math.Round(opponentCardNumber);
 
             return roundedOpponentCardNumber;
-
         }
     }
 }
