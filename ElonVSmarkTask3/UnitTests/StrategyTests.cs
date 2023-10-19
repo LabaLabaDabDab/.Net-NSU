@@ -64,7 +64,6 @@ namespace UnitTests
                 new Card(17, CardColor.Black)
             };
 
-
             var SelectedCard = strategy.SelectCard(Cards);
 
             Assert.That(SelectedCard, Is.EqualTo(Cards.Length - 1));

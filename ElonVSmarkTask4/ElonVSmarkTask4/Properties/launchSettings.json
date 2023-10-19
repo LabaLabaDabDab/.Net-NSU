@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ElonVSmarkTask4": {
+      "commandName": "Project",
+      "commandLineArgs": "readDB"
+    }
+  }
+}

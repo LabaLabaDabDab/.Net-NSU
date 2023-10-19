@@ -1,9 +1,5 @@
-﻿using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ElonVSmarkTask3;
+using Microsoft.Extensions.Hosting;
 
 namespace ElonVSmarkTask3
 {
@@ -12,12 +8,14 @@ namespace ElonVSmarkTask3
         private IExperimentService _experimentService;
         private readonly IPlayer _elonPlayer;
         private readonly IPlayer _markPlayer;
+        private readonly IHostApplicationLifetime _lifeTime;
 
-        public CollisiumExperimentWorker(IExperimentService experimentService, IPlayer elonPlayer, IPlayer markPlayer)
+        public CollisiumExperimentWorker(IExperimentService experimentService, IPlayer elonPlayer, IPlayer markPlayer, IHostApplicationLifetime lifeTime)
         {
             _experimentService = experimentService;
             _elonPlayer = elonPlayer;
             _markPlayer = markPlayer;
+            _lifeTime = lifeTime;
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -26,7 +24,7 @@ namespace ElonVSmarkTask3
             const int totalExperiments = 1_000_000;
             int totalSuccesses = 0;
 
-            for (int i = 0; i < totalExperiments; i++)
+            for (int i = 0; i < totalExperiments && !stoppingToken.IsCancellationRequested; i++)
             {
                 int successes = _experimentService.RunExperiment(new DeckShuffler(), deck, _elonPlayer, _markPlayer).Result;
                 totalSuccesses += successes;
@@ -34,6 +32,8 @@ namespace ElonVSmarkTask3
 
             double successRate = ((double)totalSuccesses / totalExperiments) * 100;
             Console.Write("Процент успешных боёв: " + successRate + "%");
+
+            _lifeTime.StopApplication();
 
             return Task.CompletedTask;
         }

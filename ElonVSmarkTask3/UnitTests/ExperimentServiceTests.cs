@@ -2,11 +2,6 @@
 using ElonVSmarkTask3;
 using Moq;
 using Strategy;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnitTests
 {
@@ -25,6 +20,7 @@ namespace UnitTests
             experimentService.RunExperiment(mockDeckShuffler.Object, deck, new ElonMask(new GameStrategy()), new MarkZuckerberg(new GameStrategy())).Wait();
 
             mockDeckShuffler.Verify(shuffler => shuffler.ShuffleDeck(It.IsAny<List<Card>>()), Times.Once);
+            Assert.Pass();
         }
 
         [Test]
@@ -81,6 +77,7 @@ namespace UnitTests
             var result = experimentService.RunExperiment(mockDeckShuffler.Object, deck, elonPlayer, markPlayer).Result;
 
             Assert.That(result, Is.EqualTo(1));
+            Assert.Pass();
         }
     }
 }

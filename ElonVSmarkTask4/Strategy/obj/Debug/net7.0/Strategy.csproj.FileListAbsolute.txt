@@ -1,0 +1,15 @@
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\bin\Debug\net7.0\Strategy.deps.json
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\bin\Debug\net7.0\Strategy.dll
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\bin\Debug\net7.0\Strategy.pdb
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\bin\Debug\net7.0\Deck.dll
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\bin\Debug\net7.0\Deck.pdb
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.csproj.AssemblyReference.cache
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfoInputs.cache
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfo.cs
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.csproj.CoreCompileInputs.cache
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.csproj.CopyComplete
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.dll
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\refint\Strategy.dll
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\Strategy.pdb
+C:\Users\thest\source\repos\ElonVSmarkTask4\Strategy\obj\Debug\net7.0\ref\Strategy.dll
