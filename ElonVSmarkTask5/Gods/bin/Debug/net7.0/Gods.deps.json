@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Gods/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0",
+          "ElonWeb": "1.0.0",
+          "MarkWeb": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "Gods.dll": {}
+        }
+      },
+      "Deck/1.0.0": {
+        "runtime": {
+          "Deck.dll": {}
+        }
+      },
+      "ElonWeb/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "ElonWeb.dll": {}
+        }
+      },
+      "MarkWeb/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "MarkWeb.dll": {}
+        }
+      },
+      "Strategy/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0"
+        },
+        "runtime": {
+          "Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deck/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElonWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarkWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

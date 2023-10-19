@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ElonWeb/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "ElonWeb.dll": {}
+        }
+      },
+      "Deck/1.0.0": {
+        "runtime": {
+          "Deck.dll": {}
+        }
+      },
+      "Strategy/1.0.0": {
+        "dependencies": {
+          "Deck": "1.0.0"
+        },
+        "runtime": {
+          "Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElonWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deck/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

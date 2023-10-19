@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Deck/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Deck.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Deck.dll": {}
+        }
+      },
+      "ElonWeb/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Deck": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ElonWeb.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ElonWeb.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "MarkWeb/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Deck": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MarkWeb.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarkWeb.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Strategy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Deck": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Strategy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Deck/1.0.0": {
+      "type": "project",
+      "path": "../Deck/Deck.csproj",
+      "msbuildProject": "../Deck/Deck.csproj"
+    },
+    "ElonWeb/1.0.0": {
+      "type": "project",
+      "path": "../ElonWeb/ElonWeb.csproj",
+      "msbuildProject": "../ElonWeb/ElonWeb.csproj"
+    },
+    "MarkWeb/1.0.0": {
+      "type": "project",
+      "path": "../MarkWeb/MarkWeb.csproj",
+      "msbuildProject": "../MarkWeb/MarkWeb.csproj"
+    },
+    "Strategy/1.0.0": {
+      "type": "project",
+      "path": "../Strategy/Strategy.csproj",
+      "msbuildProject": "../Strategy/Strategy.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Deck >= 1.0.0",
+      "ElonWeb >= 1.0.0",
+      "MarkWeb >= 1.0.0",
+      "Strategy >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\thest\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Gods\\Gods.csproj",
+      "projectName": "Gods",
+      "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Gods\\Gods.csproj",
+      "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Gods\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\thest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Deck\\Deck.csproj": {
+              "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Deck\\Deck.csproj"
+            },
+            "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\ElonWeb\\ElonWeb.csproj": {
+              "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\ElonWeb\\ElonWeb.csproj"
+            },
+            "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\MarkWeb\\MarkWeb.csproj": {
+              "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\MarkWeb\\MarkWeb.csproj"
+            },
+            "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Strategy\\Strategy.csproj": {
+              "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask5\\Strategy\\Strategy.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
