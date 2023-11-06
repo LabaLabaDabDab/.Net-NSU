@@ -1,0 +1,11 @@
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\bin\Debug\net7.0\Common.dll
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.dll
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\thest\source\repos\ElonVSMarkTask6\Common\obj\Debug\net7.0\ref\Common.dll

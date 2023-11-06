@@ -8,18 +8,6 @@ namespace UnitTests
     [TestFixture]
     public class DataBaseTests 
     {
-        private IPlayer _elonPlayer;
-        private IPlayer _markPlayer;
-        private IHostApplicationLifetime _lifetime;
-
-        [SetUp]
-        public void SetUp()
-        {
-            _elonPlayer = new Mock<IPlayer>().Object;
-            _markPlayer = new Mock<IPlayer>().Object;
-            _lifetime = new Mock<IHostApplicationLifetime>().Object;
-        }
-
         [Test, Order(1)]
         public async Task SaveExperimentConditionsToMemoryAsync()
         {

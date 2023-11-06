@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Strategy\\Strategy.csproj": {}
+    "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Strategy\\Strategy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\Deck.csproj": {
+    "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Deck\\Deck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\Deck.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Deck\\Deck.csproj",
         "projectName": "Deck",
-        "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\Deck.csproj",
+        "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Deck\\Deck.csproj",
         "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\obj\\",
         "projectStyle": "PackageReference",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Strategy\\Strategy.csproj": {
+    "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Strategy\\Strategy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Strategy\\Strategy.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Strategy\\Strategy.csproj",
         "projectName": "Strategy",
-        "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Strategy\\Strategy.csproj",
+        "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Strategy\\Strategy.csproj",
         "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Strategy\\obj\\",
+        "outputPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Strategy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thest\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\Deck.csproj": {
-                "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Deck\\Deck.csproj"
+              "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Deck\\Deck.csproj": {
+                "projectPath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Deck\\Deck.csproj"
               }
             }
           }

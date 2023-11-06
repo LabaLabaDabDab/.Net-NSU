@@ -10,7 +10,7 @@ namespace Gods
         {
             int elonPort = 5001;
             int markPort = 5002;
-            var deck = new CardDeck.Deck();
+            var deck = new Deck();
             IDeckShuffler shuffler = new DeckShuffler();
 
             var shuffledDeck = shuffler.ShuffleDeck(deck.cards);

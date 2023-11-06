@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LZ6jRZcdXigrt/SDvxR01bVpknzgRbwkP8pKa0ZhYTwL9mjgZ7bgulFrsowS76uChHBSnqCxELF9DOCPy+LuuQ==",
+  "dgSpecHash": "fx2RCrTzFRgQAnb1BkFH3pdGtIlf3LCnwmSqphgwDQw8az8b8wfxmKiYHqcUEGJzSLzmfc9SeoW3OsU2WBRFzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thest\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\thest\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

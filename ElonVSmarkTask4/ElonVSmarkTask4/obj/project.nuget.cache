@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLdVOurkfKmJ++1O+V1dj5hrcDQ7j3+7NApuaLbSUF5E3VV4jsm5ferouZietq9eVfANZGyoybVRvpV0Ie59bw==",
+  "dgSpecHash": "qyUiIezi8/jaCSLhgr9+99oPhNo0IdkFcwdPOOFr33AZpAK7mGsm979Z9rOSA+IKMiViicC0B8az8l6Wz16blg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thest\\source\\repos\\ElonVsMarkTask4\\ElonVSmarkTask4\\ElonVSmarkTask4.csproj",
+  "projectFilePath": "C:\\Users\\thest\\source\\repos\\ElonVSmarkTask4\\ElonVSmarkTask4\\ElonVSmarkTask4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thest\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\thest\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
