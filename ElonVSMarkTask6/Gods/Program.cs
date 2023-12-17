@@ -24,11 +24,11 @@ namespace Gods
             int elonPort = 5001;
             int markPort = 5002;
 
-            const int totalExperiments = 1_000;
+            const int totalExperiments = 1_000_000;
             int totalSuccesses = 0;
             var deck = new Deck();
             IDeckShuffler shuffler = new DeckShuffler();
-
+      
             var elon_endpoint = await busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/Elon_queue"));
             var mark_endpoint = await busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/Mark_queue"));
 

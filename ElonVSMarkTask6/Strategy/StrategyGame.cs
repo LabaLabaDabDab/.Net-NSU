@@ -2,9 +2,9 @@
 
 namespace Strategy
 {
-    public class GameStrategy : ICardStrategy
+    public class GameStrategy : ICardPickStrategy
     {
-        public int SelectCard(Card[] cards)
+        public int Pick(Card[] cards)
         {
             for (int i = 0; i < cards.Length; i++)
             {

@@ -11,8 +11,8 @@ namespace Consumers
         {
             var cards = context.Message.Cards;
             MarkDeck.Cards = cards;
-            ICardStrategy markStrategy = new GameStrategy();
-            int markChoice = markStrategy.SelectCard(cards.ToArray());
+            ICardPickStrategy markStrategy = new GameStrategy();
+            int markChoice = markStrategy.Pick(cards.ToArray());
             
             context.Publish(new NumberCardMessage
             {

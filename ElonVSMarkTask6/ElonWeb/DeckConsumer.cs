@@ -11,8 +11,8 @@ namespace Consumers
         {
             var cards = context.Message.Cards;
             ElonDeck.Cards = cards;
-            ICardStrategy elonStrategy = new GameStrategy();
-            int elonChoice = elonStrategy.SelectCard(cards.ToArray());
+            ICardPickStrategy elonStrategy = new GameStrategy();
+            int elonChoice = elonStrategy.Pick(cards.ToArray());
 
             context.Publish(new NumberCardMessage
             {

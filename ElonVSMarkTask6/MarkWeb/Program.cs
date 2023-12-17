@@ -7,7 +7,7 @@ using Strategy;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<ICardStrategy, GameStrategy>();
+builder.Services.AddScoped<ICardPickStrategy, GameStrategy>();
 builder.Services.AddMassTransit(x =>
 {
     x.SetKebabCaseEndpointNameFormatter();
